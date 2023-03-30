@@ -14,7 +14,7 @@ export default function Home() {
 
   return <Container fluid>
     <Grid>
-      <Col span={12} sm={10} offsetSm={1} lg={8} offsetLg={2}>
+      <Col span={12} md={10} offsetMd={1} lg={8} offsetLg={2}>
         <Grid align="flex-start">
           <Col span={12} md={4} ta="center">
             <Grid align="center">
@@ -60,37 +60,37 @@ export default function Home() {
             </Text>
             <Divider my="md" label="Highlight Repos" labelProps={{ color: 'dimmed' }} />
             <Grid gutter="xs">
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/automaapp/automa" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=automaapp&repo=automa" alt="TeleDrive" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/teledrive" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=teledrive" alt="TeleDrive" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/gptcommit" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=gptcommit" alt="gptcommit" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/restfire" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=restfire" alt="RestFire" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/repair-json" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=repair-json" alt="Repair JSON" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/chat-wa" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=chat-wa" alt="Chat WA" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={7} sm={6} md={7} lg={6}>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/progamer" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=progamer" alt="ProGamer" />
                 </Anchor>
