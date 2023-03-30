@@ -105,7 +105,7 @@ export default function Home() {
                 variant="subtle"
                 color="blue"
                 radius="sm"
-                leftIcon={<IconMail size={22} />}>
+                leftIcon={<IconMail size={16} />}>
                 mgilangjanuar@appledore.dev
               </Button>
               <Text my="xs" color="dimmed" size="xs">

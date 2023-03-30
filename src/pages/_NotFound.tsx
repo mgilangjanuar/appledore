@@ -2,10 +2,10 @@ import { Col, Container, Grid, Image, Stack, Text, Title } from '@mantine/core'
 
 export default function NotFound() {
   return <Container>
-    <Stack align="center">
+    <Stack align="left">
       <Image maw="440px" src="https://media.tenor.com/yheo1GGu3FwAAAAC/rick-roll-rick-ashley.gif" alt="Rick Roll" />
-      <Grid ta="center">
-        <Col span={12} md={8} offsetMd={2}>
+      <Grid ta="left">
+        <Col span={12} md={8}>
           <Title order={2}>404 Not Found</Title>
           <Text color="dimmed" mt="sm">
             The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
