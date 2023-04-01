@@ -44,7 +44,7 @@ export default function Home() {
           </Col>
           <Col span={12} md={8}>
             <Title order={2}>
-              Welcome to @mgilangjanuar&apos;s Lab!
+              Welcome to @mgilangjanuar&apos;s lab!
             </Title>
             <Text mt="xs">
               M Gilang Januar is a software architecture development and NLP/NLU enthusiast based in Jakarta, Indonesia. He is
@@ -93,6 +93,11 @@ export default function Home() {
               <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/progamer" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=progamer" alt="ProGamer" />
+                </Anchor>
+              </Col>
+              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+                <Anchor component="a" href="https://github.com/mgilangjanuar/passaver" target="_blank">
+                  <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=passaver" alt="passaver" />
                 </Anchor>
               </Col>
             </Grid>
