@@ -6,7 +6,7 @@ import { resolve } from 'path'
 export default async function (req: VercelRequest, res: VercelResponse) {
   const { r } = req.query
   const origin = `${req.headers['x-forwarded-proto']}://${req.headers['x-forwarded-host']}`
-  const raw = readFileSync(resolve(__dirname, '..', 'src', 'assets', 'contents', `${r}.md`), 'utf-8')
+  const raw = readFileSync(resolve('src', 'assets', 'contents', `${r}.md`), 'utf-8')
   const data = parseMD(raw)
   if (data) {
     const path = `/writings/${r}`
