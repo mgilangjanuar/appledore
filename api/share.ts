@@ -13,6 +13,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     const title = (data.metadata as { title: string }).title
     const description = (data.metadata as { excerpt: string }).excerpt
     const imgUrl = (data.metadata as { image: string }).image
+    const date = (data.metadata as { published_at: string }).published_at
 
     const str = `<!DOCTYPE html>
   <html lang="en">
@@ -23,6 +24,9 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="${description}" />
+    <meta name="author" content="M Gilang Januar">
+    <meta name="article:author" content="M Gilang Januar">
+    <meta name="article:published_time" content="${date}">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${description}" />
@@ -32,6 +36,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     <meta name="twitter:description" content="${description}" />
     <meta name="twitter:image" content="${imgUrl}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@mgilangjanuar" />
     <link rel="apple-touch-icon" href="${origin}/logo192.png" />
     <meta http-equiv="refresh" content=".1;url=${origin}${path}" />
   </head>
