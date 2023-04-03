@@ -14,10 +14,10 @@ export default function Home() {
 
   return <Container fluid>
     <Grid>
-      <Col span={12} md={10} offsetMd={1} lg={8} offsetLg={2}>
-        <Grid align="flex-start">
+      <Col span={12} lg={10} offsetLg={1}>
+        <Grid align="flex-start" gutter="xl">
           <Col span={12} md={4} ta="center">
-            <Grid align="center">
+            <Grid align="center" pt="sm">
               <Col span={12} xs={6} md={12}>
                 <Avatar style={{ width: '100%' }} className={animate} />
               </Col>
@@ -43,10 +43,10 @@ export default function Home() {
             </Grid>
           </Col>
           <Col span={12} md={8}>
-            <Title order={2}>
+            <Title fw="normal">
               Welcome to @mgilangjanuar&apos;s lab!
             </Title>
-            <Text mt="xs">
+            <Text mt="lg" size="lg">
               M Gilang Januar is a software architecture development and NLP/NLU enthusiast based in Jakarta, Indonesia. He is
               currently the VP of Engineering at <Anchor component="a" href="https://bahasa.ai" target="_blank">
                 Bahasa.ai</Anchor> and a Business Principal at <Anchor component="a" href="https://automa.site" target="_blank">
@@ -58,44 +58,44 @@ export default function Home() {
                 ReplAI</Anchor>, <Anchor component="a" href="https://github.com/mgilangjanuar/teledrive" target="_blank">
                 TeleDrive</Anchor>, and <Anchor component="a" href="https://restfire.appledore.dev" target="_blank">RestFire</Anchor>.
             </Text>
-            <Divider my="md" label="Highlight Repos" labelProps={{ color: 'dimmed' }} />
+            <Divider my="lg" label="Highlight Repos" labelProps={{ color: 'dimmed' }} />
             <Grid gutter="xs">
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/automaapp/automa" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=automaapp&repo=automa" alt="TeleDrive" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/teledrive" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=teledrive" alt="TeleDrive" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/gptcommit" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=gptcommit" alt="gptcommit" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/restfire" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=restfire" alt="RestFire" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/repair-json" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=repair-json" alt="Repair JSON" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/chat-wa" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=chat-wa" alt="Chat WA" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/progamer" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=progamer" alt="ProGamer" />
                 </Anchor>
               </Col>
-              <Col span={12} xs={8} sm={6} md={8} lg={8} xl={6}>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/passaver" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=passaver" alt="passaver" />
                 </Anchor>
@@ -104,13 +104,14 @@ export default function Home() {
             <Divider my="md" label="Contact" labelProps={{ color: 'dimmed' }} />
             <Paper p="xl" withBorder ta="center">
               <Button
+                size="lg"
                 component="a"
                 href="mailto:mgilangjanuar@appledore.dev"
                 target="_blank"
                 variant="subtle"
                 color="blue"
                 radius="sm"
-                leftIcon={<IconMail size={16} />}>
+                leftIcon={<IconMail size={18} />}>
                 mgilangjanuar@appledore.dev
               </Button>
               <Text my="xs" color="dimmed" size="xs">
