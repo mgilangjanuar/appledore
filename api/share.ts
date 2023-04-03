@@ -12,7 +12,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     const path = `/writings/${r}`
     const title = (data.metadata as { title: string }).title
     const description = (data.metadata as { excerpt: string }).excerpt
-    const imgUrl = (data.metadata as { image: string }).image
+    const imgUrl = origin + (data.metadata as { image: string }).image
     const date = (data.metadata as { published_at: string }).published_at
 
     const str = `<!DOCTYPE html>
