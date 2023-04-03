@@ -1,0 +1,10 @@
+.hljs {
+  overflow-x: auto;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+.rendered-md img {
+  width: 100%;
+  max-width: fit-content;
+}

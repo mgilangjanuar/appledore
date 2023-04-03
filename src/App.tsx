@@ -10,6 +10,8 @@ import Post from './pages/Writings/Post'
 import NotFound from './pages/_NotFound'
 import { HEADER_HEIGHT } from './utils/Constant'
 
+import './App.css'
+
 function App() {
   return <MantineProvider withGlobalStyles withNormalizeCSS>
     <MainHeader menu={[
