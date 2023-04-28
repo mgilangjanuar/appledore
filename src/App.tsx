@@ -1,7 +1,8 @@
 import { Box, Divider, MantineProvider, rem } from '@mantine/core'
 import { IconBrandGithub, IconBrandTwitter } from '@tabler/icons-react'
 import { Analytics } from '@vercel/analytics/react'
-import { Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import MainHeader from './components/MainHeader'
 import Home from './pages/Home'
 import Initiatives from './pages/Initiatives'
@@ -14,6 +15,12 @@ import { HEADER_HEIGHT } from './utils/Constant'
 import './App.css'
 
 function App() {
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location.pathname])
+
   return <MantineProvider withGlobalStyles withNormalizeCSS>
     <MainHeader menu={[
     {
