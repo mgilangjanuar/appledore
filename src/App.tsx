@@ -1,5 +1,6 @@
 import { Box, Divider, MantineProvider, rem } from '@mantine/core'
 import { IconBrandGithub, IconBrandTwitter } from '@tabler/icons-react'
+import { Analytics } from '@vercel/analytics/react'
 import { Route, Routes } from 'react-router-dom'
 import MainHeader from './components/MainHeader'
 import Home from './pages/Home'
@@ -61,6 +62,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Box>
+    <Analytics />
   </MantineProvider>
 }
 
