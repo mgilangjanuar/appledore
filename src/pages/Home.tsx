@@ -47,10 +47,8 @@ export default function Home() {
               Welcome to @mgilangjanuar&apos;s lab!
             </Title>
             <Text mt="lg" size="lg">
-              M Gilang Januar is a software architecture development and NLP/NLU enthusiast based in Jakarta, Indonesia. He is
-              currently the VP of Engineering at <Anchor component="a" href="https://bahasa.ai" target="_blank">
-                Bahasa.ai</Anchor> and a Business Principal at <Anchor component="a" href="https://automa.site" target="_blank">
-                Automa</Anchor>. He has a Bachelor's degree in Computer Science from the University of Indonesia and has worked
+              M Gilang Januar is a software architecture development and NLP/NLU enthusiast based in Jakarta, Indonesia. He is an ex-VP of Engineering at <Anchor component="a" href="https://bahasa.ai" target="_blank">
+                Bahasa.ai</Anchor>. He has a Bachelor's degree in Computer Science from the University of Indonesia and has worked
               as a software engineer, back-end engineer, and teaching assistant in the past. He is skilled in REST APIs, JavaScript,
               and web development, among other skills. M Gilang Januar is also involved in various open-source projects and has
               developed several projects, such as <Anchor component="a" href="https://github.com/mgilangjanuar/gptcommit" target="_blank">
