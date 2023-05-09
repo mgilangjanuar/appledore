@@ -71,6 +71,11 @@ export default function Home() {
                 </Anchor>
               </Col>
               <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
+                <Anchor component="a" href="https://github.com/mgilangjanuar/satpam" target="_blank">
+                  <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=satpam" alt="satpam" />
+                </Anchor>
+              </Col>
+              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/gptcommit" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=gptcommit" alt="gptcommit" />
                 </Anchor>
@@ -93,11 +98,6 @@ export default function Home() {
               <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
                 <Anchor component="a" href="https://github.com/mgilangjanuar/progamer" target="_blank">
                   <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=progamer" alt="ProGamer" />
-                </Anchor>
-              </Col>
-              <Col span={12} xs={9} sm={6} md={9} lg={9} xl={6}>
-                <Anchor component="a" href="https://github.com/mgilangjanuar/passaver" target="_blank">
-                  <Image src="https://github-readme-stats.vercel.app/api/pin/?username=mgilangjanuar&repo=passaver" alt="passaver" />
                 </Anchor>
               </Col>
             </Grid>
