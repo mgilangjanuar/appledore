@@ -40,7 +40,7 @@ export default function MainHeader({ menu, ref }: { menu: (MenuItem | MenuIcon)[
     <Group position="apart">
       <Stack h={HEADER_HEIGHT} justify="center">
         <UnstyledButton component={Link} to="/">
-          <Title order={2}>Appledore Dev</Title>
+          <Title order={2}>Appledore Lab</Title>
         </UnstyledButton>
       </Stack>
       <MediaQuery largerThan="sm" styles={{ display: 'none' }}>

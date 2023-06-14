@@ -22,24 +22,24 @@ function App() {
   }, [location.pathname])
 
   return <MantineProvider withGlobalStyles withNormalizeCSS>
-    <MainHeader menu={[
+    {/* <MainHeader menu={[
     {
       label: 'Home',
       to: '/',
       showOnMobileOnly: true,
     },
-    {
-      label: 'Initiatives',
-      to: '/initiatives'
-    },
+    // {
+    //   label: 'Initiatives',
+    //   to: '/initiatives'
+    // },
     {
       label: 'Writings',
       to: '/writings'
     },
-    {
-      label: 'Links',
-      to: '/links'
-    },
+    // {
+    //   label: 'Links',
+    //   to: '/links'
+    // },
     {
       showOnMobileOnly: true,
       element: <Divider orientation="horizontal" key="divider" size="xs" my="xl" /> },
@@ -58,7 +58,7 @@ function App() {
       href: 'https://twitter.com/mgilangjanuar',
       iconOnDesktopOnly: true
     }
-  ]} />
+  ]} /> */}
     <Box py={rem(20)} mt={HEADER_HEIGHT} mih={`calc(100vh - ${HEADER_HEIGHT})`}>
       <Routes>
         <Route path="/" element={<Home />} />

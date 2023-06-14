@@ -1,19 +1,15 @@
-import { Anchor, Box, Button, Col, Collapse, Container, Divider, Grid, Image, MediaQuery, Paper, Text, Title } from '@mantine/core'
-import { useDisclosure, useToggle } from '@mantine/hooks'
-import { IconMail } from '@tabler/icons-react'
-import { useEffect } from 'react'
-import Avatar from '../assets/Avatar'
+import { Anchor, Box, Container, Stack, Text, Title } from '@mantine/core'
 
 export default function Home() {
-  const [animate, setAnimate] = useToggle(['', 'active'])
-  const [openedEmail, { toggle: toggleEmail }] = useDisclosure(false)
+  // const [animate, setAnimate] = useToggle(['', 'active'])
+  // const [openedEmail, { toggle: toggleEmail }] = useDisclosure(false)
 
-  useEffect(() => {
-    setAnimate()
-  }, [])
+  // useEffect(() => {
+  //   setAnimate()
+  // }, [])
 
-  return <Container fluid>
-    <Grid>
+  return <Container>
+    {/* <Grid>
       <Col span={12} lg={10} offsetLg={1}>
         <Grid align="flex-start" gutter="xl">
           <Col span={12} md={4} ta="center">
@@ -124,6 +120,17 @@ export default function Home() {
           </Col>
         </Grid>
       </Col>
-    </Grid>
+    </Grid> */}
+
+    <Stack align="stretch" justify="center" h="80vh" ta="center">
+      <Box maw={640} mx="auto">
+        <Title>
+          Appledore Lab.
+        </Title>
+        <Text mt="md">
+          PT APPLEDORE MGILANGJANUAR LAB &mdash; a legally <Anchor component="a" href="https://pse.kominfo.go.id/tdpse-detail/14980" target="_blank">registered company</Anchor> in Indonesia. Our current project: <Anchor component="a" href="https://automix.ai" target="_blank">automix.ai</Anchor>. Contact us at <Anchor component="a" href="mailto:mgilangjanuar@appledore.dev" target="_blank">mgilangjanuar@appledore.dev</Anchor>.
+        </Text>
+      </Box>
+    </Stack>
   </Container>
 }
